@@ -9,7 +9,7 @@ public class RecebendoDados {
 		System.out.println("Por favor, digite seu nome");
 		nome = leitor.next();
 		System.out.println("Que legal ter você aqui, " + nome);
-	
+		leitor.close();
 
 	}
 
